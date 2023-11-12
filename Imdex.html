@@ -1,0 +1,274 @@
+<!Doctype Html>
+<html lang="en">
+    <head>
+            <meta charset="UTF-8"
+            <meta http-equiv="X-UA-compatible" content="IE=edge">   
+            <meta name="viewport" content="width=device-width, initial-scale=1.0xp">
+            <link rel="stylesheet" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGTuYcnd1BTl-W2mzJfg8a9gsIRnRs_dYl8k702wxwX0dDYpPG2YUGT90eLFEYJo5oquw&usqp=CAU">
+
+            <title>concurso de perros de unidad canina</title>
+            <style>
+                html,
+                /* Primeramente ponemos un estilo global para todo el documento, lo que nos importa es tener un fondo de un color y un estilo de letra */
+                body {
+                  height: 100%;
+                  width: 100%;
+                  margin: 0;
+                  font-family: "Roboto", sans-serif;
+                  background-color: #ffffff;
+                }
+                h1,
+                h2,
+                h3 {
+                  /* Estilo global para el color del texto */
+                  color: rgb(255, 174, 0);
+                }
+                .container {
+                  /* Contenedor principal que tendra nuestros productos y toda la informacion, ajustamos su ancho para que no llegue a los bordes */
+                  max-width: 1200px;
+                  /* esto sirve para que quede centrado, el 0 significa el valor vertical en este caso no queremos margen vertical y el auto es el valor horizontal, significa que tendremos margen en los lados y esto va a centrar todo */
+                  margin: 0 auto;
+                  /* esto sirve para hacer un poco de espacio con los bordes de ese elemento, aporta en la estetica */
+                  padding: 15px;
+                }
+                .navbar {
+                  /* ponemos los estilos de la barra de navegacion de hasta arriba, con espacios usando padding, gap para distancia entre elementos y flex para que los elementos vayan uno a la par de otro */
+                  background-color: #000000;
+                  width: 100%;
+                  height: 100px;
+                  padding: 0px 20px;
+                  gap: 30px;
+                  display: flex;
+                  align-items: center;
+                }
+                .menu-text {
+                  padding-bottom: 50px;
+                }
+                .shadow-container {
+                  /* esta sombras nos ayuda a dar un toque estetico, los valores son: horizontal vertical difuminado grosor y por ultimo el color que queramos usar en este caso negro pero muy opaco, casi gris */
+                  box-shadow: 0px 4px 23px 1px rgb(0, 255, 200);
+                }
+                .shadow-light {
+                  box-shadow: 0px 2px 2px 1px rgb(65, 65, 65);
+                }
+                .card {
+                  /* estilo principal de la tarjeta de producto */
+                  background-color: rgb(255, 166, 0);
+                  border-radius: 10px;
+                  padding: 16px;
+                  display: flex;
+                }
+                .card-image {
+                  /* este estilo sirve para las imagenes que pondremos en el estilo anterior, colocamos un anchoy un alto fijo */
+                  width: 252px;
+                  height: 252px;
+                  display: flex;
+                  margin-right: 12px;
+                  /* object-fit sirve para ajustar el tamano de la imagen a nuestro estilo, ya que pueden ser de diferente tamaño, object-position sirve para centrarla */
+                  object-fit: cover;
+                  object-position: center;
+                }
+                .card-text {
+                  display: flex;
+                  /* el flex-direction nos sirve para determinar la direccion en la que queremos tener los elementos adentro, si es uno abajo de otro (columna), o si son a la par (fila) */
+                  flex-direction: column;
+                  width: 100%;
+                  /* el justify-content nos sirve para alinear los elementos en el espacio que tengamos disponible (enmedio, a los lados, parejo), es importante usar display:flex */
+                  justify-content: space-between;
+                }
+                .card-actions {
+                  display: flex;
+                  justify-content: end;
+                }
+                .content{
+                  background-color: transparent;
+                }
+                .action-button {
+                  background-color: #474747;
+                  color: #4a4a4a;
+                  border-radius: 8px;
+                  font-size: 14px;
+                  padding: 6px 8px;
+                  border: none;
+                  cursor: pointer;
+                  /* cursor pointer sirve para tener el estilo del mouse diferente cuando pasa por encima de ese objeto */
+                }
+                .rounded {
+                  border-radius: 12px;
+                }
+                .products-list {
+                  display: flex;
+                  flex-direction: column;
+                  gap: 20px;
+                }
+                /* modificando la linea divisora */
+                hr {
+                  height: 1px;
+                }
+              </style>
+            
+              <style type="text/css">
+
+			
+                * {
+                    margin:0px;
+                    padding:0px;
+                }
+                
+                #header {
+                    margin:auto;
+                    width:500px;
+                    font-family:Arial, Helvetica, sans-serif;
+                }
+                
+                ul, ol {
+                    list-style:none;
+                }
+                
+                .nav > li {
+                    float:left;
+                }
+                
+                .nav li a {
+                    background-color:#555555;
+                    color:#565656;
+                    text-decoration:none;
+                    padding:10px 15px;
+                    display:block;
+                }
+                
+                .nav li a:hover {
+                    background-color:#5a5a5a;
+                }
+                
+                .nav li ul {
+                    display:none;
+                    position:absolute;
+                    min-width:140px;
+                }
+                
+                .nav li:hover > ul {
+                    display:block;
+                }
+                
+                .nav li ul li {
+                    position:relative;
+                }
+                
+                .nav li ul li ul {
+                    right:-140px;
+                    top:0px;
+                }
+                
+            </style>
+            </head>
+            <body>
+    </head>
+    <body>
+
+            <div class="head">
+                
+                <nav class="navbar shadow-container">
+                    <h1>COMPLEJO EDUCATIVO REPÚBLICA DE HAITÍ. GRADO: 1er año de bachillerato
+                        SECCIÓN: “A”</h1>
+                  </nav>
+
+            </div>
+
+            <style>
+                body {
+                    background-attachment: fixed;
+                    background-size: cover;
+                    background-color: rgb(255, 255, 255);
+                
+                }
+                
+                </style>
+
+            <header class="content header">
+                <h2 class="title">central</h2>
+                <p>Las centrales de mascotas son una forma de explotación animal.
+                    Los animales son criados en condiciones de hacinamiento e insalubridad, y se les priva de la oportunidad de moverse libremente o de expresar su comportamiento natural.
+                    A menudo se les alimenta con dietas inadecuadas y se les somete a procedimientos dolorosos, como la mutilación y la castración.
+                    Las centrales de mascotas son un negocio cruel e inhumano que debe ser detenido. Hay muchas maneras de ayudar a los animales que sufren en estas instalaciones, como adoptar de refugios o rescates, donar a organizaciones que trabajan para cerrar las centrales de mascotas, y concienciar sobre este importante tema.
+                </p>
+            </div>
+            <div class="card-actions">
+              <div style="text-align:left; display:block;">
+                <div style="display:flex">
+                  <video width="320" height="240" controls>
+                    <source src="video-perros.mp4" type="video/mp4">
+                  </video>
+                  <img src="pitbull.jpeg.jpeg" width="400" height="400" alt="">
+                </div>
+              </div>
+              </figure>
+
+            </header>
+
+            <section class="content sau">
+
+                <h2 class="title">mascotas</h2>
+                <p>Las mascotas son una parte muy importante de cualquier familia. 
+                    Tienen una alta responsabilidad puesto que además de alimentarlas y cuidarlas para que estén sanas 
+                    (con sus revisiones en el veterinario) también hay que aportarles mucho amor, porque se lo merecen.
+                </p>
+
+                <div class="box-container">
+
+                    <div class="box">
+                        <i class="fab fa-angolar"></i>
+                        <h3>unidad canina militar</h3>
+                        <p>Unidades caninas militares son unidades militares que utilizan perros para una variedad de propósitos, incluyendo rastreo, detección de explosivos y narcóticos, y búsqueda y rescate. 
+                            Los perros son entrenados para realizar tareas específicas y son manejados por soldados o agentes de policía.
+                            Las unidades caninas militares se utilizan en una variedad de entornos, incluyendo zonas de guerra, áreas urbanas y zonas rurales. 
+                            Pueden ser utilizadas para rastrear a los enemigos, detectar explosivos y narcóticos, y buscar y rescatar a las víctimas.
+                            Las unidades caninas militares son una herramienta valiosa para los militares y las fuerzas del orden. 
+                            Los perros son capaces de realizar tareas que los humanos no pueden, y pueden ser una gran ayuda en una variedad de situaciones.
+                        </p>
+                        <div class="card-actions">
+                            <div style="text-align:left; display:block;">
+                              <img src="unidad canina Militar del El Salvador.jpeg.jpeg" width="400" height="400" alt="">
+                            </div>
+                            </figure>
+                    </div>
+                    <div class="box">
+                        <i class="fab fa-angular"></i>
+                        <h3>unidad canina policial</h3>
+                        <p>Unidades caninas policial son unidades policial que utilizan perros para una variedad de propósitos, incluyendo rastreo, detección de explosivos y narcóticos, y búsqueda y rescate. 
+                            Los perros son entrenados para realizar tareas específicas y son manejados por soldados o agentes de policía.
+                            Las unidades caninas policial se utilizan en una variedad de entornos, incluyendo zonas de guerra, áreas urbanas y zonas rurales. 
+                            Pueden ser utilizadas para rastrear a los enemigos, detectar explosivos y narcóticos, y buscar y rescatar a las víctimas.
+                            Las unidades caninas policial son una herramienta valiosa para los policial y las fuerzas del orden. 
+                            Los perros son capaces de realizar tareas que los humanos no pueden, y pueden ser una gran ayuda en una variedad de situaciones.
+                        </p>
+                        <div class="card-actions">
+                            <div style="text-align:left; display:block;">
+                              <img src="unidad canina policia nacional del El Salvador.jpeg.jpeg" width="400" height="400" alt="">
+                            </div>
+                            </figure>
+                    </div>
+                    <div class="box">
+                        <i class="fab fa-android"></i>
+                        <h3>perros</h3>
+                        <p>Perros de mascotas son animales de compañía que se tienen en los hogares para brindar compañía y afecto a sus dueños. Pueden ser de diferentes razas, tamaños y colores, y cada uno tiene su propia 
+                           personalidad única. Los perros de mascotas pueden ser una gran fuente de alegría y amor para sus dueños, y pueden proporcionar muchos beneficios para la salud, como reducir el estrés, mejorar el estado 
+                           de ánimo y aumentar la actividad física.
+                        </p>
+                        <div class="card-actions">
+                            <div style="text-align:left; display:block;">
+                              <img src="pitbull bebes.jpeg.jpeg" width="400" height="400" alt="">
+                            </div>
+                            </figure>
+                    </div>
+
+                </div> 
+
+            </section>
+
+                </article>
+
+            </section>
+
+    </body>
+</html>
